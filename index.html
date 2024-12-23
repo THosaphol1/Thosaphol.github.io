@@ -9,20 +9,108 @@
   <a href="index.html">Home</a> |
   <a href="about.html">About</a> |
   <a href="contact.html">Contact Me</a> |
-  <h1>Home Page</h1>
-  <h2>Home Page</h2>
-  <h3>Home Page</h3>
-  <h4>Home Page</h4>
-  <h5>Home Page</h5>
-  <h6>Home Page</h6>
-  <hr>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ea deleniti ipsum recusandae fugit, dolorem ducimus perferendis aliquid molestiae hic saepe doloribus quis nesciunt, repellendus eligendi sit. Est, sint maxime!</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis reiciendis amet et quam ratione ut quas sapiente eligendi dicta, recusandae, excepturi dignissimos ipsum eaque incidunt aliquam commodi molestiae modi placeat.
-  Accusantium impedit ipsum non facere eaque amet dolor laudantium voluptatum harum? Adipisci, doloribus at enim cupiditate assumenda reiciendis nostrum corporis laborum labore in numquam unde praesentium ipsum ut quae saepe.
-  Facilis aspernatur nesciunt odio incidunt sint corrupti minima, laborum labore illo sunt reiciendis enim voluptatem aut. Quos atque numquam delectus laborum esse commodi et repellat ipsam, eveniet quia tempora distinctio?
-  Ut dolore magni quia eaque soluta molestiae corrupti vero labore fugit a nisi, facere nemo similique voluptates minima at? Temporibus asperiores fugit excepturi deleniti dolorem est mollitia nulla porro ipsam!
-  Et maiores cum, incidunt fuga saepe voluptate veniam ratione fugit, illum hic enim, reprehenderit sint eaque. Adipisci facere sint porro corporis repudiandae nostrum aperiam provident eum dolorum itaque, laboriosam vero.</p>
-  <hr>
-  <img src="/images/cat.png" alt="cat O_O" width="64" height="64">
-</body>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="css/Bunlutum.css">
+
+  
+    <hr>
+    <h2>แบบสอบถาม</h2>
+    <hr>
+  
+    <form>
+      <table>
+        <tr>
+          <td colspan="2"><h4>ข้อมูลผู้ตอบแบบสอบถาม</h4></td>
+        </tr>
+        <tr>
+          <td><label for="name">ชื่อ-นามสกุล:</label></td>
+          <td><input type="text" id="name" name="name" required></td>
+        </tr>
+        <tr>
+          <td><label for="id">รหัสนักศึกษา:</label></td>
+          <td><input type="text" id="id" name="id" required></td>
+        </tr>
+        <tr>
+          <td><label>เพศ:</label></td>
+          <td>
+            <input type="radio" id="male" name="gender" value="ชาย">
+            <label for="male">ชาย</label>
+            <input type="radio" id="female" name="gender" value="หญิง">
+            <label for="female">หญิง</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="faculty">สังกัดคณะ:</label></td>
+          <td>
+            <select id="faculty" name="faculty">
+              <option value="วิทยาศาสตร์">วิทยาศาสตร์</option>
+              <option value="วิทยาการคอมพิวเตอร์">วิทยาการคอมพิวเตอร์</option>
+              <option value="ครุศาสตร์">ครุศาสตร์</option>
+              <option value="บริหารธุรกิจและการจัดการ">บริหารธุรกิจและการจัดการ</option>
+              <option value="มนุษยศาสตร์">มนุษยศาสตร์</option>
+              <option value="เทคโนโลยีอุตสาหกรรม">เทคโนโลยีอุตสาหกรรม</option>
+              <option value="เกษตรศาสตร์">เกษตรศาสตร์</option>
+              <option value="พยาบาลศาสตร์">พยาบาลศาสตร์</option>
+              <option value="สาธารณสุขศาสตร์">สาธารณสุขศาสตร์</option>
+              <option value="แพทย์แผนไทยและทางเลือก">แพทย์แผนไทยและทางเลือก</option>
+              <option value="นิติศาสตร์">นิติศาสตร์</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label>สีที่ชื่นชอบ:</label></td>
+          <td>
+            <input type="checkbox" id="red" value="สีแดง">
+            <label for="red">สีแดง</label>
+            <input type="checkbox" id="green" value="สีเขียว">
+            <label for="green">สีเขียว</label>
+            <input type="checkbox" id="blue" value="สีน้ำเงิน">
+            <label for="blue">สีน้ำเงิน</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label>ผลไม้ที่ชื่นชอบ:</label></td>
+          <td>
+            <input type="checkbox" id="mango" value="มะม่วง">
+            <label for="mango">มะม่วง</label>
+            <input type="checkbox" id="custard" value="น้อยหน่า">
+            <label for="custard">น้อยหน่า</label>
+            <input type="checkbox" id="durian" value="ทุเรียน">
+            <label for="durian">ทุเรียน</label><br>
+            <input type="checkbox" id="longan" value="ลำไย">
+            <label for="longan">ลำไย</label>
+            <input type="checkbox" id="guava" value="ฝรั่ง">
+            <label for="guava">ฝรั่ง</label>
+            <input type="checkbox" id="watermelon" value="แตงโม">
+            <label for="watermelon">แตงโม</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label>อาหารที่ชื่นชอบ:</label></td>
+          <td>
+            <input type="checkbox" id="tomyum" value="ต้มยำกุ้ง">
+            <label for="tomyum">ต้มยำกุ้ง</label>
+            <input type="checkbox" id="omelette" value="ไข่เจียวหมูสับ">
+            <label for="omelette">ไข่เจียวหมูสับ</label>
+            <input type="checkbox" id="chickencurry" value="แกงข่าไก่">
+            <label for="chickencurry">แกงข่าไก่</label><br>
+            <input type="checkbox" id="greencurry" value="แกงเขียวหวาน">
+            <label for="greencurry">แกงเขียวหวาน</label>
+            <input type="checkbox" id="padthai" value="ผัดไทย">
+            <label for="padthai">ผัดไทย</label>
+            <input type="checkbox" id="crispynoodles" value="ราดหน้าหมี่กรอบ">
+            <label for="crispynoodles">ราดหน้าหมี่กรอบ</label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: center;">
+            <input type="submit" value="บันทึก" onclick="alert('บันทึกข้อมูลเรียบร้อย')">
+          </td>
+        </tr>
+      </table>
+    </form>
 </html>
